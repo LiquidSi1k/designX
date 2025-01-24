@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Designer X - Portfolio showcasing digital goods and projects with a minimalistic touch."
+        />
+        <title>Designer X</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            rel="stylesheet"
+        />
+        <script
+            type="module"
+            src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"
+        ></script>
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="#digital" title="Projects"
+                            ><i class="fa-solid fa-briefcase"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#services" title="Services"
+                            ><i class="fa-solid fa-users-gear"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="hero">
+                <h1>I'm Vince.</h1>
+                <p class="hero-desc1">Designer and Developer.</p>
+                <p class="hero-desc2">With a minimalistic touch.</p>
+            </section>
+
+            <div class="globe">
+                <spline-viewer url="https://prod.spline.design/F7Vtqpt5nfXM7xQM/scene.splinecode"
+                    ><p>Loading 3D model...</p></spline-viewer
+                >
+            </div>
+        </header>
+
+        <main>
+            <section class="digital-section" id="digital">
+                <div class="section-header margin-top-none">
+                    <p>Digital Goods</p>
+                    <div class="line"></div>
+                    <p class="see-all" onclick="seeAll()">See All</p>
+                </div>
+
+                <div class="digital-goods">
+                    <div class="digital-good">
+                        <img
+                            src="https://cdn.dribbble.com/userupload/17789301/file/original-b315fee298953d87215c4ac4b216276f.png?format=webp&resize=400x300&vertical=center"
+                            alt="Digital Good"
+                        />
+                        <div class="flex-between">
+                            <p>Gaming Design</p>
+                            <p>$200.99</p>
+                        </div>
+                    </div>
+                    <div class="digital-good">
+                        <img
+                            src="https://cdn.dribbble.com/userupload/18676577/file/still-a087d8c6948e263205e4682caa404857.png?format=webp&resize=400x300&vertical=center"
+                            alt="Digital Good"
+                        />
+                        <div class="flex-between">
+                            <p>Finance Design</p>
+                            <p>$500.99</p>
+                        </div>
+                    </div>
+                    <div class="digital-good">
+                        <img
+                            src="https://cdn.dribbble.com/userupload/17523011/file/original-680d0f76a35fca910d736d1b28191e60.jpg?format=webp&resize=400x300&vertical=center"
+                            alt="Digital Good"
+                        />
+                        <div class="flex-between">
+                            <p>Admin Dashboard</p>
+                            <p>$250.99</p>
+                        </div>
+                    </div>
+                    <div class="digital-good">
+                        <img
+                            src="https://cdn.dribbble.com/userupload/18241703/file/original-ee48099c02ae0ddf83496db0dce6ac71.jpg?format=webp&resize=400x300&vertical=center"
+                            alt="Digital Good"
+                        />
+                        <div class="flex-between">
+                            <p>Sports Design</p>
+                            <p>$100.99</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="padding-top-40" id="services">
+                <div class="section-header">
+                    <p>Services</p>
+                    <div class="line"></div>
+                </div>
+
+                <div class="digital-goods">
+                    <article class="digital-services text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <p class="margin-top-20 title">Complete Websites</p>
+                        <p class="margin-top-10 margin-bottom-20">UI/UX Design</p>
+                    </article>
+                    <article class="digital-services text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <p class="margin-top-20 title">Development</p>
+                        <p class="margin-top-10 margin-bottom-20">Frontend Development</p>
+                    </article>
+                    <article class="digital-services text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+                        <p class="margin-top-20 title">Design Systems</p>
+                        <p class="margin-top-10 margin-bottom-20">Scalable Design Foundations</p>
+                    </article>
+                    <article class="digital-services text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <p class="margin-top-20 title">Branding</p>
+                        <p class="margin-top-10 margin-bottom-20">Web Development</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="padding-top-40">
+                <div class="section-header margin-bottom-20">
+                    <p>Testimonials</p>
+                    <div class="line"></div>
+                </div>
+
+                <div class="carousel">
+                    <div class="group">
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">Amazing designs! Exceeded my expectations.</p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/1" alt="sarah" height="60" />Sarah T.
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">Great work, just needed faster updates.</p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/2" alt="sarah" height="60" />Michael
+                                R.
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">
+                                Flawless process and stunning results! Good Job!
+                            </p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/3" alt="sarah" height="60" />Anna L.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div aria-hidden class="group">
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">Amazing designs! Exceeded my expectations.</p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/1" alt="sarah" height="60" />Sarah T.
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">Great work, just needed faster updates.</p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/2" alt="sarah" height="60" />Michael
+                                R.
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="margin-top-20">
+                                Flawless process and stunning results! Good Job!
+                            </p>
+                            <div class="flex-between">
+                                <img src="https://robohash.org/3" alt="sarah" height="60" />Anna L.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="section-header margin-top-40">
+                    <p>Contact Us!</p>
+                    <div class="line"></div>
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required />
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer-text">Let's create something awesome together.</p>
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i
+                ><i class="fa-brands fa-instagram"></i>
+            </div>
+            <p>&copy; 2025 Designer X</p>
+        </footer>
+
+        <script>
+            const seeAll = () => {
+                alert("Apologies...Site is still under Construction");
+            };
+        </script>
+    </body>
+</html>
